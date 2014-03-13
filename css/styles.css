@@ -10,7 +10,7 @@ h3{
 	text-align: center;
 	color: crimson;
 }
-img{
+.homepage-img{
 	height: 150px;
 	width: 100%;
 }
@@ -30,9 +30,11 @@ footer{
 }
 .header{
 	border-bottom: 3px solid black;
+	margin-top: 20px;
 }
 .nav{
-	margin-top: 27px;
+	margin-top: 68px;
+	margin-left: 156px;
 }
 .content-padding{
 	padding-top: 10px;
