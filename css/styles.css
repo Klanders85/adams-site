@@ -1,0 +1,56 @@
+body{
+
+}
+h2{
+	text-align: center;
+	color: crimson;
+	font-size: 25px;
+} 
+h3{
+	text-align: center;
+	color: crimson;
+}
+img{
+	height: 150px;
+	width: 100%;
+}
+footer{
+	background-color: black;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+}
+.red{
+	color: red;
+}
+.blue{
+	color: blue;
+}
+.header{
+	border-bottom: 3px solid black;
+}
+.nav{
+	margin-top: 27px;
+}
+.content-padding{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.effect{
+	background-color: lightgrey;
+	border: 2px solid blue;
+}
+.nav-center{
+	display: inline-block;
+	text-align: center;
+}
+.big-btn{
+	padding: 6px 12px;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+.service-special-padding{
+	padding-top: 5px;
+}
