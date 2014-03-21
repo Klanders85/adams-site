@@ -12,6 +12,19 @@ h3{
 }
 /*End Global Styles*/
 
+/*Footer styles*/
+.footer{
+	margin-top: 230px;
+	height: 50px;
+	background-color: black;
+	color: lightgrey;
+	padding-top: 15px;
+}
+.footer p{
+	font-size: 10px;
+}
+/**/
+
 /*Homepage Styles*/
 .homepage-img{
 	height: 150px;
@@ -54,7 +67,7 @@ h3{
 .service-special-padding{
 	padding-top: 5px;
 }
-/*End Global Styles*/
+/*End homepage styles*/
 
 /*About Us Styles*/
 .img-placeholder{
@@ -70,3 +83,25 @@ h3{
 }
 
 /*End About Us Styles*/
+
+/*Contact Us styles*/
+.phone{
+	padding-bottom: 10px;
+}
+.phone ul{
+	list-style-type: none;
+}
+.phone ul li {
+	font-size: 20px;
+}
+.border{
+	border: 2px solid yellow;
+}
+.address p {
+	font-size: 20px;
+}
+.email{
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+/**/
