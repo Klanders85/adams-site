@@ -10,11 +10,14 @@ h3{
 	text-align: center;
 	color: crimson;
 }
+i{
+	font-size: 80px;
+	padding-top: 10px;
+}
 /*End Global Styles*/
 
 /*Footer styles*/
 .footer{
-	margin-top: 230px;
 	height: 50px;
 	background-color: black;
 	color: lightgrey;
@@ -119,4 +122,160 @@ h3{
 	padding-bottom: 10px;
 	font-size: 20px;
 }
+.spec-position{
+	position: relative;
+	left: 140px;
+}
 /**/
+
+
+
+
+
+/*Media Query Styles Only!*/
+/* Smartphones (portrait) iphone 4 to iphone 5  - Also small tablets portrait----------- */
+@media only screen and (min-width : 320px) and (max-width: 600px) {
+	.logo{
+		margin-left: 340px;
+	}
+	.nav{
+		margin-left: 280px;
+	}
+	.homepage-img{
+		height: inherit;
+	}
+	.co-history h2{
+		text-align: center;
+	}
+	.kindle h2{
+	text-align: center;
+	}
+	.kindle ul{
+		text-align: center;
+	}
+	.kindle ul li{
+		list-style-type: none;
+	}
+	.contact-sidebar{
+		width: 97%;
+	}
+	.img-placeholder{
+		margin: 0 auto;
+	}
+	.pm-list{
+		text-align: center;
+		list-style-type: none;
+	}
+	.spec-position{
+		left: 440px;
+	}
+	.contact-phone  li{
+		text-align: center;
+	}
+}
+/*Ipad Styles Portrait*/
+@media only screen and (min-width : 600px) and (max-width: 768px) {
+	.logo{
+		margin-left: 220px;
+	}
+	.homepage-img{
+		height: inherit;
+	}
+	.co-history h2{
+		text-align: center;
+	}
+	.contact-sidebar{
+		width: 97%;
+	}
+	.img-placeholder{
+		margin: 0 auto;
+	}
+	.spec-position{
+		left: 320px;
+	}
+	.contact-phone  li{
+		text-align: center;
+	}
+}
+/*Smaller Tablets like the Kindle Fire - Portrait*/
+@media only screen and (min-width : 600px) and (max-width: 600px){
+	.logo{
+		margin-left: 340px;
+	}
+	.kindle h2{
+	text-align: center;
+	}
+	.kindle ul{
+		text-align: center;
+	}
+	.kindle ul li{
+		list-style-type: none;
+	}
+	.spec-position{
+		left: 440px;
+	}
+}
+/*Smaller Tablets like the Kindle Fire - Landscape*/
+@media only screen and (min-width : 800px) and (max-width: 800px){
+	.logo{
+		margin-left: 220px;
+	}
+	.homepage-img{
+		height: inherit;
+	}
+	.co-history{
+		text-align: center;
+	}
+	.contact-sidebar{
+		width: 100%;
+	}
+	.img-placeholder{
+		margin: 0 auto;
+	}
+	.kindle h2{
+	text-align: center;
+	}
+	.kindle ul{
+		text-align: center;
+	}
+	.kindle ul li{
+		list-style-type: none;
+	}
+	.spec-position{
+		left: 320px;
+	}
+	.contact-phone  li{
+		text-align: center;
+	}
+}
+
+/*iPad Portrait and Landscape*/
+@media only screen and (min-width : 768px) and (max-width: 1024px){
+	.nav{
+		margin-left: 0;
+	}
+	.contact-phone{
+		padding-left: 15px;
+	}
+	.spec-position{
+		left: 115px;
+	}
+	.co-history{
+		text-align: center;
+	}
+	.kindle h2{
+	text-align: center;
+	}
+	.kindle ul{
+		text-align: center;
+	}
+	.kindle ul li{
+		list-style-type: none;
+	}
+
+
+}
+
+
+
+
