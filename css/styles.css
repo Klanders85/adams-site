@@ -39,6 +39,9 @@ h3{
 .blue{
 	color: blue;
 }
+.yellow{
+	color: yellow;
+}
 .header{
 	border-bottom: 3px solid black;
 	margin-top: 20px;
@@ -84,6 +87,18 @@ h3{
 
 /*End About Us Styles*/
 
+
+/*Services Provided styles*/
+.entry-wrapper{
+	padding-top: 30px;
+}
+.services-copy{
+	font-size: 23px;
+}
+.brand-wrapper{
+
+}	
+/**/
 /*Contact Us styles*/
 .phone{
 	padding-bottom: 10px;
