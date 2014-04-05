@@ -51,7 +51,10 @@ i{
 }
 .nav{
 	margin-top: 68px;
-	margin-left: 156px;
+	/*margin-left: 156px;*/
+}
+#logo-right{
+	margin-left: 90px;
 }
 .content-padding{
 	padding-top: 10px;
@@ -78,7 +81,7 @@ i{
 /*About Us Styles*/
 .img-placeholder{
 	height: 300px;
-	width: 300px;
+	width: 202px;
 	border: 2px solid black;
 }
 .contact-sidebar{
@@ -86,6 +89,14 @@ i{
 	width: 300px;
 	padding-bottom: 10px;
 	margin-left: 15px;
+}
+#adam{
+	margin-bottom: 1px;
+}
+#tim{
+	width: 200px;
+	height: 164px;
+
 }
 
 /*End About Us Styles*/
