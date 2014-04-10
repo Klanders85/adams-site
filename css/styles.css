@@ -29,6 +29,9 @@ i{
 /**/
 
 /*Homepage Styles*/
+.phone-number{
+	font-size:24px;
+}
 .homepage-img{
 	height: 150px;
 	width: 100%;
